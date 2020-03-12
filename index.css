@@ -1,0 +1,67 @@
+
+
+/*navbar*/
+.navbar {
+    border-bottom: #15a2b8 1px solid;
+}
+.btn-outline-success:hover{
+    color:white;
+    background-color:#15a2b8;
+    border-color: #15a2b8;
+}
+.btn-outline-success{
+    color: #15a2b8;
+    border-color: #15a2b8;
+}
+
+/*옆에 메뉴바*/
+.nav {
+    background-color: #333a40;
+    border-right: #15a2b8 1px solid;
+}
+.nav-link {
+    color: #15a2b8;
+}
+a:hover {
+    color: white;
+}
+.menubar {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+/*프로필*/
+.profile {
+    background-color: #333a40d9;
+    border-right: #15a2b8 1px solid;
+}
+.profilebox {
+    text-align: center;
+    border-top: #15a2b8 1px solid;
+    border-bottom: #15a2b8 1px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.profilecontents {
+    padding-top: 10px;
+    font-size: 14px;
+    color:white;
+}
+h5 {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+
+
+/*분할한거*/
+#homepage {
+    display: grid;
+    grid-template-columns: 150px 200px 1fr;
+}
+.bigdoor {
+    background-color: #333a40ab;
+    text-align: center;
+}
