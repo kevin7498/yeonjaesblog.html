@@ -30,55 +30,73 @@
           </form>
         </div>
     </nav>
-    <!--옆에 메뉴 바-->
     <div id="homepage"> 
-        <nav class="nav flex-column">
-            <div class="menubar">
-                <a class="nav-link" href="#">호치민</a>
-                <a class="nav-link" href="#">푸꾸옥</a>
-                <a class="nav-link" href="#">달랏</a>
-                <a class="nav-link" href="#">붕따우</a>
-                <a class="nav-link" href="#">하노이</a>
-                <a class="nav-link" href="#">싱가포르</a>
-                <a class="nav-link" href="#">방콕</a>
-                <a class="nav-link" href="#">파타야</a>
-            </div>  
-        </nav>
-    <!--프로필-->
-        <div class="profile">
-            <div><h5>yeonjae's</h5></div>
-            <div class="profilebox">
-                <img src="profile.png" alt="" width="70%">
-                <div class="profilecontents">
-                세계 각지의 맛집 소개중
-                </div>
-            </div>
+      <!--옆에 메뉴 바-->
+      <nav class="nav flex-column">
+          <div class="menubar">
+              <a class="nav-link" href="#">호치민</a>
+              <a class="nav-link" href="#">푸꾸옥</a>
+              <a class="nav-link" href="#">달랏</a>
+              <a class="nav-link" href="#">붕따우</a>
+              <a class="nav-link" href="#">하노이</a>
+              <a class="nav-link" href="#">싱가포르</a>
+              <a class="nav-link" href="#">방콕</a>
+              <a class="nav-link" href="#">파타야</a>
+          </div>  
+      </nav>
+      <!--프로필-->
+      <div class="profile">
+          <div><h5>yeonjae's</h5></div>
+          <div class="profilebox">
+              <img src="profile.png" alt="" width="70%">
+              <div class="profilecontents">
+              세계 각지의 맛집 소개중
+              </div>
+          </div>
+      </div>
+      <!--본문-->
+      <div class="bigdoor">
+        <img src="bigdoor.jpg" alt="" width="70%">
 
-        </div>
-    <!--본문-->
-        <div class="bigdoor">
-            <img src="bigdoor.jpg" alt="" width="70%">
+      <!--페이지 넘기기-->
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav> 
+      <!--댓글창-->
+      <div id="disqus_thread"></div>
+      <script>
 
-    <!--페이지 넘기기-->
-            <nav aria-label="Page navigation example">
-              <ul class="pagination">
-                <li class="page-item">
-                  <a class="page-link" href="#" aria-label="Previous">
-                    <span aria-hidden="true">&laquo;</span>
-                  </a>
-                </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item">
-                  <a class="page-link" href="#" aria-label="Next">
-                    <span aria-hidden="true">&raquo;</span>
-                  </a>
-                </li>
-              </ul>
-            </nav> 
-
-        </div>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://yeonjaes-masjib.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
 
     
